@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/decription"
+        style="@style/mainTitle"
+        android:paddingBottom="5dp"
+        android:text="@string/songLibraryDescription" />
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="430dp"
+        android:layout_below="@id/decription"></ListView>
+
+    <LinearLayout
+        android:id="@+id/navgationButtonSection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/list">
+
+        <Button
+            android:id="@+id/artistDetailsButton"
+            style="@style/navigationButtons"
+            android:text="@string/artistDetailsDescription" />
+
+        <Button
+            android:id="@+id/musicPlayerButton"
+            style="@style/navigationButtons"
+            android:text="@string/musicPlayerDescription" />
+
+    </LinearLayout>
+
+</RelativeLayout>

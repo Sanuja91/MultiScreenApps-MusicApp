@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/decription"
+        android:text="@string/artistDetailsDescription"
+        style="@style/mainTitle"/>
+
+    <TextView
+        android:id="@+id/artistNameTextView"
+        android:layout_below="@id/decription"
+        style="@style/musicPlayerTextStyle"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:id="@+id/artistDecription"
+        android:layout_below="@id/artistNameTextView"
+        style="@style/musicPlayerTextStyle"
+        android:textSize="14sp"
+        android:layout_marginTop="40dp"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"/>
+
+    <LinearLayout
+        android:id="@+id/navgationButtonSection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/songLibraryButton"
+            style="@style/navigationButtons"
+            android:text="@string/songLibraryDescription"/>
+
+        <Button
+            android:id="@+id/musicPlayerButton"
+            style="@style/navigationButtons"
+            android:text="@string/musicPlayerDescription"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

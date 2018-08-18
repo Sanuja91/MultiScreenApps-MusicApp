@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp">
+
+    <TextView
+        android:id="@+id/songTextView"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        style="@style/mainTextStyle"
+        android:gravity="center" />
+
+    <LinearLayout
+        android:id="@+id/songContainer"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/songTextView"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/artistTextView"
+            style="@style/subTextStyle"
+            android:gravity="bottom" />
+
+        <TextView
+            android:id="@+id/albumTextView"
+            style="@style/subTextStyle"
+            android:gravity="top"
+            android:textStyle="italic"
+            android:textSize="14sp"/>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/ic_play_arrow_white_24dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?android:attr/selectableItemBackground" />
+</RelativeLayout>

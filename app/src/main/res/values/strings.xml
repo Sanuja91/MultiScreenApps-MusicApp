@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">MusicApp</string>
+    <string name="title_activity_music_player">MusicPlayerActivity</string>
+    <string name="title_activity_artist_details">ArtistDetailsActivity</string>
+    <string name="songLibraryDescription">Song Library</string>
+    <string name="musicPlayerDescription">Music Player</string>
+    <string name="artistDetailsDescription">Artist Details</string>
+
+    <string name="aboveNBeyond">Above and Beyond is an English progressive trance group consisting of members Jono Grant, Tony McGuinness, and Paavo Siljamäki.
+        Formed in 2000, they are the owners of London-based electronic dance music labels Anjunabeats and Anjunadeep,
+        and also host a weekly radio show titled Group Therapy Radio. </string>
+
+    <string name="gathania">Gathania Holmgren, known professionally as Gathania born 1 August 1986, Stockholm, is a Swedish pop
+        singer who competed on Idol 2007, the fourth season of Swedish Idol.</string>
+
+    <string name="jessicaMauboy">Jessica Hilda Mauboy (born 4 August 1989) is an Australian RnB and pop singer, songwriter, and actress. In 2006, Mauboy was the runner-up on the fourth season of Australian Idol; she had auditioned for the talent show in Alice Springs,
+        Northern Territory to pursue a recording career. Mauboy subsequently signed a contract with Sony Music Australia.</string>
+
+    <string name="kaskade">Ryan Gary Raddon (born February 25, 1971), better known by his stage name Kaskade, is an American DJ, record producer and remixer. On October 20, 2011, DJ Mag announced the results of their magazine, with Ultra Music,
+        Kaskade placed at No. 30</string>
+
+    <string name="matisyahu">Matthew Paul Miller (born June 30, 1979), known by his Hebrew and stage name Matisyahu ("Gift of God"), is a Jewish American reggae vocalist, beatboxer, and alternative rock musician.</string>
+
+    <string name="michaelWoods">Michael Anthony Woods is an English producer, DJ, and remixer of various EDM genres, mainly progressive house, electro house and trance. He is the founder of the imprint label Diffused Music,
+        which was established in 2010 and focuses primarily on progressive house and tech house.</string>
+
+    <string name="orangez">A mystery</string>
+
+    <string name="strechNVern">A mystery</string>
+
+    <string name="theKillers">The Killers is an American rock band formed in Las Vegas, Nevada in 2001, by Brandon Flowers (lead vocals, keyboards) and Dave Keuning (guitar, backing vocals). Mark Stoermer (bass guitar, backing vocals) and
+        Ronnie Vannucci Jr. (drums, percussion) would complete the current line-up of the band in 2002.</string>
+
+    <string name="theXX">The xx are an English alternative band formed in 2005 in Wandsworth, London. The group released its debut album, xx, in August 2009. The album was a commercial and critical success and was ranked highly on
+        many best of 2009 lists, including number one on the list compiled by The Guardian and second for NME</string>
+
+    <string name="tinaMore">A mystery</string>
+
+
+
+</resources>

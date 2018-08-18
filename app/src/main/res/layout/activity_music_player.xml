@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/decription"
+        android:text="@string/musicPlayerDescription"
+        style="@style/mainTitle"/>
+
+    <TextView
+        android:id="@+id/songNameTextView"
+        style="@style/musicPlayerTextStyle"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginTop="120dp"/>
+
+    <TextView
+        android:id="@+id/albumNameTextView"
+        style="@style/musicPlayerTextStyle"
+        android:textStyle="italic"
+        android:layout_below="@id/songNameTextView" />
+
+    <TextView
+        android:id="@+id/artistNameTextView"
+        style="@style/musicPlayerTextStyle"
+        android:layout_below="@+id/albumNameTextView" />
+
+    <Button
+        android:id="@+id/buttonPause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/artistNameTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="Play" />
+
+    <LinearLayout
+        android:id="@+id/navgationButtonSection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/songLibraryButton"
+            style="@style/navigationButtons"
+            android:text="@string/songLibraryDescription"/>
+
+        <Button
+            android:id="@+id/artistDetailsButton"
+            style="@style/navigationButtons"
+            android:text="@string/artistDetailsDescription"/>
+
+    </LinearLayout>
+</RelativeLayout>
+
